@@ -1,0 +1,13 @@
+import re
+from nltk.corpus import stopwords
+def cleanText(x):
+    import re
+    from nltk.corpus import stopwords
+    x=x.encode('ascii','ignore').decode()
+    x=re.sub(r'https*\S+','',x) # remove urls
+    x=re.sub(r'@\S+','',x) #remove mentions
+    x=re.sub(r'#\S+','',x) # remove hashtags
+    x=re.sub(r'\'w+','',x) 
+    x=[i for i in x if i not in string.punctuation] # remove punctuations
+    x=''.join(x)
+    return ''.join(x)

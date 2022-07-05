@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+    p, h2 {
+        text-align: center;
+    }
+
+    table{
+        border-spacing: 10px;
+        text-align: center;
+        table-layout: fixed;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<h2 text-align:center>Sentiment Analysis</h2>
+<p>Enter your dataset below your data should be clean and processd after uploading your dataset specify the number of
+    tweet you want to predict <br>
+    The number of tweets you specify should not exceed the total number of tweets in the dataset. </p>
+
+
+<div id="form" style="background-color:aqua; width:fit-content;height:fit-content">
+
+
+    <table style="border:1px solid black;">
+
+        <form action="{{url_for('s_t')}}" method="POST" enctype="multipart/form-data">
+            <tr>
+                <td>
+                    Enter Dataset
+                </td>
+                <td>
+                    <input type="file" id="file" name="file" enctype="multipart/form-data" required>
+                </td>
+            </tr>
+            <tr>
+                <td>No. of Tweets</td>
+
+                <td> <input type="number" id="limit" name="limit" required></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td> <input type="submit" value="Predict"></td>
+            </tr>
+        </form>
+    </table>
+</div>
+
+<br>
+
+
+
+<div id="prediction">
+
+
+
+
+
+    </table>
+</div>
+
+
+
+
+{% endblock %}

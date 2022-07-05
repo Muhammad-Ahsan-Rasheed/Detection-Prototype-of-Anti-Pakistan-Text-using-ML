@@ -1,0 +1,830 @@
+@media only screen and (max-width: 1540px){
+    .banner-right-con img{
+        width: 45vw;
+        max-width: 45vw;
+    }
+    .informationmainleft-sec-img img{
+        width: 38vw;
+        max-width: 38vw;
+    }
+    .service-main-left-con{
+        margin-left: -128px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .nav-item{
+        padding: 0 18px;
+    }
+    .Pricing-box-list ul li{
+        font-size: 14px;
+    }
+    .team-detail-con{
+        padding-top: 0;
+    }
+    .Pricing-box-con{
+        padding: 52px 40px 60px 40px;
+    }
+    .informationmainleft-sec-img img{
+        margin-left: -21px;
+    }
+    .Effective-sec-item-title h4{
+        font-size: 18px;
+    }
+    #tsum-tabs .Effective-sec-item-title span{
+        font-size: 19px;
+    }
+    .Effective-sec-item{
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 40px;
+
+    }
+    .informationmain-right-content ul li::before{
+        left: -230px;
+    }
+    .contact-box-card .Effective-sec-item{
+        padding: 52px 36px;
+    }
+    .service-main-left-top-con{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .service-main-left-con{
+        margin-left: 0;
+    }
+    #tsum-tabs label{
+        margin: 0 10px;
+    }
+     #tsum-tabs .Effective-sec-item-title span{
+         padding: 0 20px;
+     }
+     .service-skill-sttaf-con{
+         margin-left: -28px;
+     }
+     .team-detail-con{
+         padding-bottom: 80px;
+     }
+     .team-professional-con {
+        padding: 80px 0;
+    }
+    .team-professional-con h2 {
+        margin-bottom: 28px;
+    }
+    .blog-posts {
+        padding: 80px 0;
+    }
+}
+@media only screen and (max-width: 991px){
+    .header-and-banner-con::after{
+        background-position-y: -165px;
+    }
+    .navbar-toggler.collapsed span:nth-child(3){
+        transform: rotate(0deg);
+    }
+    .header-con .contact-btn{
+        margin-left: 22px;
+    }
+    .navbar-toggler.collapsed span:nth-child(2){
+        opacity: 1;
+    }
+    .navbar-toggler.collapsed span:nth-child(1){
+        transform: rotate(0deg);
+    }
+    .navbar-toggler span:nth-child(1){
+        transform: rotate(45deg);
+        transform-origin: 0% 186%;
+    }
+    .navbar-toggler span:nth-child(2){
+        opacity: 0;
+    }
+    .navbar-toggler span.navbar-toggler-icon {
+        transition: all 0.15s;
+    }
+    .navbar-toggler span:nth-child(3) {
+        transform: rotate(-45deg);
+        transform-origin: 24% 2%;
+    }
+    .navbar-collapse{
+        background: var(--light-blue-color);
+        padding:8px 0;
+        min-width: 35% !important;
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 48px;
+        z-index: 2;
+    }
+    .banner-right-con img {
+        width: 49vw;
+        max-width: 49vw;
+    }
+    .navbar-brand img{
+        height: 48px;
+    }
+    .banner-main-con,
+    .slider-con,
+    .Effective-con,
+    .informationmain-con,
+    .Cyber-Security-con,
+    .Pricing-con,
+    .form-main-con,
+    .get-start-con,
+    .Testimonials-section-con,
+    .service-main-left-con{
+        padding: 70px 0;
+    }
+    .weight-footer-item-con{
+        padding: 50px 0;
+    }
+    .about-page-blog-post-con{
+        padding-top: 70px !important;
+    }
+    .blog-post-con,
+    .blog-post-details-con{
+        padding-bottom: 70px !important;
+    }
+    .navbar-toggler-icon {
+        border-bottom: 2px solid var(--primary--color);
+        display: block;
+        height: 10px;
+        background-image: none !important;
+    }
+   
+    .banner-right-con{
+        right: 28%;
+    }
+    .navbar-toggler{
+        border:none;
+        background: none;
+        margin-top: -8px;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    .informationmain-right-content ul{
+        display: none;
+    }
+    .header-con .form-inline a{
+        margin-left: 18px;
+    }
+    .nav-item{
+        padding:10px 30px;
+    }
+    .nav-item:last-child,
+    .banner-main-con{
+        padding-bottom: 0;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contact-btn{
+        padding: 15px 30px;
+        font-size: 16px;
+        line-height: 16px;
+    } 
+    .informationmain-con{
+        padding-top: 0;
+    }
+    h5{
+        font-size: 14px;
+        margin-bottom: 12px;
+        line-height: 14px;
+    }
+    .slider-heading h2{
+        margin-bottom: 30px;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .informationmainleft-sec-img img{
+        margin-left: -32px;
+    }
+    .informationmain-right-heading h2{
+        line-height: 40px;
+    }
+    .Effective-sec-heading h2,
+    .Cyber-Security-right-heading-con h2{
+        line-height: 40px;
+        margin-bottom: 24px;
+    }
+    .dots-left-img::after,
+    .dots-right-img::before{
+        background-size: contain;
+        width: 105px;
+        top: -180px;
+    }
+    .informationmain-right-con{
+        padding-top: 0;
+    }
+    .Effective-sec-heading h5{
+        margin-bottom: 12px;
+    }
+    .Effective-sec-item{
+        padding: 36px;
+    }
+    .header-and-banner-con{
+        padding-top: 20px;
+    }
+    .Cyber-Security-right-con{
+        order: 1;
+    }
+    .Cyber-Security-left-con{
+        order: 2;
+    }
+    .Cyber-Security-right-heading-con{
+        padding: 0 0 30px 0;
+        text-align: center;
+    }
+    .informationmain-right-content p,
+    .service-Effective-con-item{
+        margin-bottom: 0;
+    }
+    .Cyber-Security-right-heading-con h5{
+        margin-bottom: 10px;
+    }
+    .Cyber-Security-right-heading-con p{
+        margin-bottom: 30px;
+    }
+    .Pricing-title h2,
+    .blog-post-heading h2,
+    .form-title-con h2,
+    .Testimonials-section-heading h2{
+        line-height: 34px;
+        margin-bottom: 24px;
+    }
+    .blog-post-heading h5{
+        margin-bottom: 12px;
+    }
+    
+    .Pricing-box-list ul{
+        display: inline-block;
+    }
+    .blog-post-item-title a h4{
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 4px !important;
+        padding-right: 52px;
+    }
+    .blog-post-item-title h6{
+        line-height: 16px;
+    }
+    .get-start-title h1{
+        padding: 0 100px;
+    }
+    .form-inner-con input,
+.form-inner-con textarea{
+    padding: 10px 20px;
+}
+.Pricing-box-con{
+ padding: 20px 20px 30px 20px;   
+}
+.Pricing-box-img figure img {
+    width: 75px;
+    height: 100px;
+}
+.Pricing-box-heading h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Pricing-box-heading h2{
+    margin-bottom: 4px;
+}
+.Pricing-box-heading p{
+    margin-bottom: 10px;
+}
+.Pricing-box-list ul{
+    margin-bottom: 16px;
+}
+.Pricing-box-list ul li {
+    font-size: 12px;
+    line-height: 28px;
+}
+.Pricing-box-list ul li::before {
+    display: none;
+}
+.form-inner-con textarea{
+    margin: 30px 0;
+}
+.blog-post-item-title{
+    bottom: 20px;
+    left: 35px;
+}
+.Pricing-box-main-con{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.weight-footer-item-img figure img{
+    width: 150px;
+}
+.weight-footer-item-img figure{
+    margin-bottom: 12px;
+}
+.blog-post-item-title-link,
+.blog-post-item-title h6,
+.weight-footer-item-content p,
+.weight-footer-item-link ul li{
+    font-size: 14px;
+}
+.Pricing-box-link a{
+    padding: 10px 26px;
+    font-size: 14px;
+}
+.blog-post-item-title-link i{
+    font-size: 12px;
+}
+.weight-footer-item-form-input{
+    padding: 5px 12px;
+}
+.weight-footer-item-title h3{
+    font-size: 18px;
+}
+.form-group label::before{
+    padding: 5px;
+}
+.form-group input:checked + label::after{
+    top: 6px;
+    left: 4px;
+    width: 5px;
+    height: 9px;
+}
+.about-page-main-banner-con{
+    padding-bottom: 70px !important;
+}
+.about-page-banner-title p{
+    padding:0 70px;
+}
+.blog-post-details-sec-img{
+    float: none !important;
+    margin-bottom: 18px;
+}
+.blog-post-details-heading-sec{
+    padding: 0;
+}
+.blog-post-details-sec-title h4{
+    font-size: 18px;
+}
+.about-page-blog-post-item .blog-post-item-title a h4{
+    line-height: 25px;
+    font-size: 18px;
+}
+.about-page-blog-post-item .blog-post-item-title a h6{
+    font-size: 16px;
+    line-height: 20px;
+}
+.service-Effective-con .Effective-sec-item{
+    padding: 20px;
+}
+.contact-box-card .Effective-sec-item{
+    padding: 25px;
+}
+.service-Effective-con .Effective-sec-item-title h4{
+    font-size: 16px;
+}
+.service-Effective-con .Effective-sec-item-title p{
+    font-size: 14px;
+}
+.contact-box-card .Effective-sec-item-title p{
+    line-height: 24px;
+}
+.service-Effective-con-item > div{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#tsum-tabs .Effective-sec-item {
+    padding: 14px 0;
+    margin:0 8px;
+}
+#tsum-tabs [id^="tab"]:checked + label::after{
+    transform: translate(-15px, 65px);
+}
+#tsum-tabs .Effective-sec-item-title span{
+    padding: 0 33px;
+}
+.Effective-sec-item-title h4,
+#tsum-tabs label span{
+    font-size: 14px !important;
+    line-height: 22px;
+}
+.tabs-content h3 {
+    font-size: 22px;
+}
+#tsum-tabs p{
+    padding-right: 0 !important;
+    margin: 0 0 15px;
+}
+#tsum-tabs section{
+    padding-top: 24px;
+}
+.contact-box-card .Effective-sec-item .Effective-sec-item-img figure {
+    margin-bottom: 16px;
+}
+.Map-main-inner-con iframe {
+    height: 350px;
+}
+.team-page-blog {
+    padding-top: 0 !important;
+}
+.Testimonials-item-con{
+    padding: 45px;
+}
+.carousel-indicators {
+    bottom: -40px;
+}
+#tsum-tabs label{
+    padding: 0 8px;
+}
+#tsum-tabs .Effective-sec-item-title h4{
+    line-height: 18px;
+}
+#content4 .tabs-content .row > div:last-child .tab-sec-img img{
+    width: 80%;
+}
+.service-main-right-con{
+    height: 500px;
+}
+.service-main-left-con{
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+}
+.service-box-content{
+    width: 70%;
+}
+.service-skill-sttaf-item-title{
+    margin: 0 auto;
+}
+.service-main-left-con h2{
+    padding: 0 27px 0 27px;
+    line-height: 34px;
+}
+.list li i{
+    left: -15px;
+
+}
+.team-member-detail{
+    margin-top: 15px;
+}
+.team-member-detail p,
+.team-member-detail h5
+{
+    margin-bottom: 10px;
+}
+.team-contanct {
+    margin-bottom: 10px;
+}
+.team-professional-con h2 {
+    margin-bottom: 14px;
+}
+.skills{
+    margin: 50px 0;
+}
+.team-professional-con ul li{
+    margin-left: 16px;
+}
+.team-professional-con li i {
+    left: -22px;
+}
+.team-professional-con {
+    padding: 70px 0;
+}
+.team-professional-con ul li {
+    font-size: 16px;
+}
+.blog-posts {
+    padding: 60px 0;
+}
+}
+@media only screen and (max-width: 870px){
+    .informationmainleft-sec-img img{
+        width: 45vw;
+        max-width: 45vw;
+    }
+}
+@media only screen and (max-width: 767px){
+    #blog .post-item .post-item-description > h2{
+        font-size: 20px !important;
+    }
+    .blockquote {
+        margin-left: 24px !important;
+    }
+    .post-item-description{
+        padding-right: 0 !important;
+    }
+    .header-and-banner-con::after {
+        background-position-y: center;
+    }
+    .banner-con,
+    .informationmain-con{
+
+        text-align: center;
+    }
+    .navbar-collapse{
+        min-width: 50% !important;
+    }
+    .banner-main-left-con,
+    .informationmain-right-con{
+        order: 2;
+    }
+    .banner-right-con,
+    .informationmain-left-con{
+        order: 1;
+    }
+    .banner-right-con img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .banner-right-con{
+        right: 0;
+    }
+    .Pricing-box-list ul li{
+        font-size: 14px;
+    }
+    .banner-main-con,
+    .slider-con,
+    .informationmain-con,
+    .Effective-con,
+    .Cyber-Security-con,
+    .Pricing-con,
+    .form-main-con,
+    .get-start-con,
+    .Testimonials-section-con,
+    .service-main-left-con,
+    .team-professional-con
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .about-page-blog-post-con{
+        padding-top: 50px !important;
+    }
+    .about-page-main-banner-con{
+        padding-bottom: 50px !important;
+    }
+    .weight-footer-item-con{
+        padding: 40px 0;
+    }
+    .blog-post-con,
+    .blog-post-details-con{
+        padding-bottom: 50px !important;
+    }
+    .slider-con,
+    .informationmain-con
+    {
+        padding-top: 0;
+    }
+    .banner-content p{
+        /* margin-right: 0; */
+        padding-right: 0;
+    }
+    .informationmain-right-con{
+        padding-top: 30px;
+    }
+    .informationmainleft-sec-img img{
+        margin-left: 0;
+    }
+    .banner-right-con img,
+    .informationmainleft-sec-img img{
+        width: 90%;
+        max-width: 90%;
+    }
+    h1{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    h2{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .banner-heading h1{
+        padding-right: 47px;
+    }
+    .header-and-banner-con {
+        padding-top: 25px;
+    }
+    h5{
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+    .informationmain-right-heading h5{
+        margin-bottom: 10px;
+    }
+    .Effective-sec-heading h2{
+        padding-left: 0;
+        padding-right: 0;
+        line-height: 34px;
+    }
+    .informationmain-right-heading h2{
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .Effective-sec-item3{
+        margin-bottom: 24px;
+    }
+    .get-start-title h1{
+        padding: 0 70px;
+    }
+    .form-inner-con input,
+.form-inner-con textarea{
+    margin-bottom: 16px;
+}
+.form-inner-con textarea{
+    margin-top: 0;
+}
+.weight-footer-item{
+    text-align:center;
+}
+.weight-footer-item-content p{
+    padding-right: 0;
+}
+.Pricing-box-main-con,
+.service-Effective-con-item > div{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about-page-banner-title p {
+    padding: 0;
+}
+.blog-post-item-img a figure img{
+    width: 100%;
+}
+#tsum-tabs label{
+    margin-bottom: 24px !important;
+    width: 45%;
+    display: inline-block;
+}
+#tsum-tabs section{
+    padding-top: 0;
+}
+.tabs-content{
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+}
+.tab-description p:last-child,
+.carousel-item .row > div:last-child{
+    display: none;
+}
+#tsum-tabs [id^="tab"]:checked + label::after {
+    transform: translate(-15px, 54px);
+}
+.team-page-blog{
+    padding-top: 0 !important;
+}
+.tab-sec-img img{
+    width: 60%;
+}
+.weight-footer-item-con .row > div:nth-child(2) .weight-footer-item,
+.weight-footer-item-con .row > div:nth-child(3) .weight-footer-item{
+    text-align: left;
+}
+.service-main-left-con{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service-box-content{
+    padding: 30px 42px;
+}
+.service-box-content h6 {
+    font-size: 18px;
+    line-height: 12px;
+}
+.service-box-content p {
+    line-height: 26px;
+    color: var(--primary--color);
+    margin-bottom: 8px;
+}
+.service-box-content a{
+    font-size: 14.5px;
+}
+.blog-posts {
+    padding: 50px 0;
+}
+}
+@media only screen and (max-width: 575px){
+    h1{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    p{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .team-detail-con img{
+        width: 250px;
+    }
+    .team-member-detail p, .team-member-detail h5 {
+        margin-bottom: 5px;
+    }
+    .contact-btn{
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    .slider-item-con{
+        max-width: 47%;
+    }
+    .banner-heading h1{
+        padding-right: 0;
+    }
+    .banner-content p{
+        margin-bottom: 24px;
+    }
+    .Effective-link a{
+        margin-top: 35px;
+    }
+    .Effective-sec-heading h2{
+        line-height: 29px;
+    }
+    .navbar-collapse {
+        min-width: 100% !important;
+        top: 50px;
+    }
+    .Cyber-Security-left-main-con,
+    .service-Effective-con-item{
+        margin-bottom: 0;
+    }
+    .Cyber-Security-right-heading-con h2{
+        margin-bottom: 16px;
+        line-height: 32px;
+    }
+    .Cyber-Security-left-card-con{
+        margin-bottom: 24px;
+    }
+    .get-start-title h1{
+        padding: 0;
+    }
+    .weight-footer-item1-content{
+        padding: 0 !important;
+    }
+    .blog-post-details-heading-sec {
+        padding-left: 20px !important;
+        padding-right: 30px !important;
+    }
+    .weight-footer-item2-content{
+        line-height: 22px !important;
+    }
+    .Newsletter-title,
+    .service-skill-sttaf-con{
+        display: none;
+    }
+    .about-page-banner-title p {
+        padding: 0 30px;
+    }
+    .blog-post-details-sec-title h4{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .blog-post-details-sec-content p {
+        line-height: 24px;
+    }
+    .blog-post-details-con{
+        text-align: center;
+    }
+    .blog-post-item-title{
+        left: 45px;
+    }
+    #tsum-tabs label{
+        margin-bottom: 14px !important;
+    }
+    #tsum-tabs .Effective-sec-item{
+        margin: 0 5px;
+    }
+    #tsum-tabs .Effective-sec-item-title span{
+        padding: 0;
+        font-size: 12px !important;
+    }
+    .Map-main-inner-con iframe {
+        height: 300px;
+    }
+    .weight-footer-item-con .row > div:nth-child(2) .weight-footer-item,
+.weight-footer-item-con .row > div:nth-child(3) .weight-footer-item{
+    margin-left: 20px;
+    margin-bottom: 23px !important;
+}
+.service-box-content{
+    width: 95%;
+}
+#tsum-tabs .Effective-sec-item-title h4{
+    padding: 0 32px;
+}  
+.blog-posts {
+    padding: 40px 0;
+}
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="../static/assets/bootstarp/bootstrap.min.css">
+      <link rel="stylesheet" href="../static/assets/css/super-classes.css">
+      <link rel="stylesheet" href="../static/assets/css/style.css">
+      <link rel="stylesheet" href="../static/assets/css/mobile.css">
+      <title>cyber chip | Services</title>
+
+    <style>
+        h1, h3 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-spacing: 0px;
+            table-layout: fixed;
+            margin-left:-150px;
+            margin-right:auto;
+        }
+        th {
+            color: black;
+            font-size: larger;
+            border: 2px solid black;
+        }
+        td {
+
+            padding: 20px;
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+   </head>
+   <body>
+      <!---header-and-banner-section-->
+      <div class="header-and-banner-con w-100">
+         <div class="header-and-banner-inner-con overlay-content">
+            <!--navbar-start-->
+            <header>
+               <div class="container">
+                  <div class="header-con">
+                     <nav class="navbar navbar-expand-lg navbar-light p-0">
+                        <a class="navbar-brand p-0" href="index.html">
+                        <img src="../static/assets/image/logo-img.png" width="75px" height="75px" alt="logo-img" class="img-fluid">
+                        </a>
+                        <button class="navbar-toggler p-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                           <ul class="navbar-nav">
+                              <li class="nav-item active">
+                                 <a class="nav-link text-white p-0" href="/">Home<span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link text-white p-0" href="/about">About us</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link text-white p-0" href="/svm"> Project </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </header>
+            <!--navbar-end-->
+            <!--banner-start-->
+            <section class="banner-main-con about-page-main-banner-con">
+               <div class="container">
+                  <div class="banner-con about-page-banner-con text-center">
+                     <div class="row wow slideInLeft">
+                        <div class="col-lg-12">
+                           <div class="about-page-banner-title">
+                              <h1>Text Analysis</h1>
+                               <div id="form" style=" width:fit-content;height:fit-content;margin-left: 400px;">
+<table border="1px" width="600">
+    <tr style="background-color: #9fcdff">
+        <th><b>Sr. No</b></th>
+        <th><b>Text</b></th>
+        <th><b>Prediction</b></th>
+        <th><b>Username</b></th>
+    </tr>
+
+<div>
+{% set counter = 1 %}
+{% for key,value in result.items() %}
+    <tr style="background-color:whitesmoke">
+      <td>{{counter}}</td>
+      <td>{{key}}</td>
+      <td>{{value[0]}}</td>
+      <td>{{value[1]}}</td>
+    </tr>
+    {% set counter = counter + 1 %}
+{%endfor%}
+</div>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--banner-end-->
+
+         </div>
+      </div>
+      <!---header-and-banner-section-->
+
+
+
+      <!-- weight-footer-section -->
+      <section>
+         <div class="weight-footer-main-con bg-overly-img">
+            <div class="container overlay-content"></div>
+         </div>
+      </section>
+      <!-- weight-footer-section -->
+      <script src="assets/js/wow.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+      <script src="../static/assets/js/jquery-3.6.0.min.js"> </script>
+      <script src="../static/assets/js/popper.min.js"> </script>
+      <script src="../assets/js/bootstrap.min.js"> </script>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

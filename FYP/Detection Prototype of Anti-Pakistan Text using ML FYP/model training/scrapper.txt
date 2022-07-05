@@ -1,0 +1,9 @@
+import nest_asyncio
+import twint
+nest_asyncio.apply()
+c=twint.Config()
+c.Search="Pakistan" # or whatever the key word you want to search to scrap the tweets
+c.limit=100   # the no.of tweets u want to scrap
+c.Store_csv=True
+c.Output="scrapped_data.csv"
+twint.run.Search(c)

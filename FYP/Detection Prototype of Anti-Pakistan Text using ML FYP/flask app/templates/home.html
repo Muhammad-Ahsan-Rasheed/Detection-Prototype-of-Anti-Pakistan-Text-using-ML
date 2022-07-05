@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+
+    table,
+    title {
+        border-spacing: 10px;
+        text-align: center;
+        table-layout: fixed;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    p,
+    h2,
+    div {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <title text-align : center><b>Anti State Tweet Analysis</b></title>
+    <h2>Project Supervisor: Dr. Wasi Haider</h2>
+    <h3>Group Members</h3>
+    <p>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Roll Number</th>
+            </tr>
+            <tr>
+                <td>Arsal Sana</td>
+                <td>248720</td>
+            </tr>
+            <tr>
+                <td>Raas Khan Baloach</td>
+                <td>240612</td>
+            </tr>
+            <tr>
+                <td>Daniyaal Asvad</td>
+                <td>265770</td>
+            </tr>
+            <tr>
+                <td>Arslan Javaid</td>
+                <td>281019</td>
+            </tr>
+        </table>
+    </p>
+    <form action="/svm">
+        <button name="forwardBtn" type="submit">Get Started</button>
+    </form>
+
+    {% endblock %}
+</body>
