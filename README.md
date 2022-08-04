@@ -1,4 +1,8 @@
 # Detection-Prototype-of-Anti-Pakistan-Text-using-ML
+
+# Objective
+Our objective was to develop a prototype which'll be able to detect Anti State text using Machine Learning based on data we provided as Training Data.  
+
 # Data Collection
 The model is trained using data scrapped from twitter using twint library
 The data is labeled 0 and 1 , 1 represents Anti State tweet and 0 represents Not Anti State tweets.
